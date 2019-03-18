@@ -1,6 +1,6 @@
 'use strict';
 
-// var APP_BASE_URL = "http://10.117.189.212:8081/Insurance/api";
+var APP_BASE_URL = "http://13.234.59.233:8085/LighteningApp/api";
 
 // Declare app level module which depends on views, and core components
 angular.module('myApp', [

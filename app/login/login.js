@@ -9,6 +9,14 @@ angular.module('myApp.login', ['ngRoute'])
   });
 }])
 
-.controller('LoginCtrl', [function($scope, $http) {
-
-}]);
+.controller('LoginCtrl', function($scope, $http) {
+  $scope.loginDetails = {
+    username: '',
+    pwd: ''
+  }; 
+  
+  $scope.LoginDetails = function() {
+    alert(JSON.stringify( $scope.loginDetails));
+    // userInput = $scope.username;
+  }
+});
