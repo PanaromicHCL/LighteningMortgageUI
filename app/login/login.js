@@ -14,7 +14,7 @@ angular.module('myApp.login', ['ngRoute'])
     username: '',
     pwd: ''
   }; 
-  
+  // $rootscope = "newdata";
   $scope.LoginDetails = function() {
     alert(JSON.stringify( $scope.loginDetails));
     // userInput = $scope.username;

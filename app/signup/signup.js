@@ -13,6 +13,7 @@ angular.module('myApp.registration', ['ngRoute'])
     $scope.registrationDetails = {
         userName: '',
         password: '',
+        phone: '',
         email: ''
     };
     // $scope.validatePassword = function() {
